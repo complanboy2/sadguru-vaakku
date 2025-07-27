@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',                 // change to '/repo-name/' if using GitHub Pages
+  base: '/sadguru-vaakku/',
+  assetsInclude: ['**/*.mp3']
 });

@@ -4,7 +4,7 @@
         "dev": "vite",
         "build": "vite build",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist -r git@github.com:complanboy2/sadguru-vaakku.git"
     },
     "dependencies": {
         "react": "^18.0.0",
